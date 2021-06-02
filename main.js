@@ -54,7 +54,7 @@ var last_position_of_x, last_position_of_y;
     }
     function eraseALL(){
         var s = document.getElementById("color").value;
-        if(s == cuba){
+        if(s == "cuba"){
             document.getElementById(hyper).innerHTML = "Jai Kubba Devta";
         }
         ctx.clearRect(0,0,ctx.canvas.width,ctx.canvas.height);
